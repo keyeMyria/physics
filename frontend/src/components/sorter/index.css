@@ -1,0 +1,33 @@
+.sorter-icon-container{
+    display: flex;
+    flex-direction: column;
+}
+
+.sorter-container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.sorter-tot-container{
+    display: flex;
+    flex-direction: row;
+}
+
+.sorter-tot-container div{
+    /* background-color: red; */
+    margin-left: 10px;
+}
+
+.sorter-icon{
+    cursor: pointer;
+    /* background-color: red; */
+    line-height: 0.5;
+    color: #999;
+    transition: color 0.2s linear;
+}
+
+.sorter-icon :hover{
+    color: #666;
+    transition: color 0.2s linear;
+}

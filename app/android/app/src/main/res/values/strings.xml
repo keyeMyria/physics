@@ -1,0 +1,4 @@
+<resources>
+    <string moduleConfig="true" name="reactNativeCodePush_androidDeploymentKey">LCaRJdHFFdzYOCx9eVYd4NfJEMEt2a0de96f-242a-4297-bac4-469000a5378b</string>
+    <string name="app_name">物理云</string>
+</resources>

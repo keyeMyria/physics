@@ -1,0 +1,106 @@
+.test_div{
+    height: 100px;
+    background-color: green
+}
+
+.course_list_container{
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.course_list_item{
+    display: flex;
+    flex-direction: row;
+    padding: 1px;
+}
+
+.course_list_title{
+    width: 65px;
+    font-size: 12px;
+    color: #999999;
+}
+
+.course_list_content{
+    font-size: 12px;
+    color: #999999;
+}
+
+.course_card{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+.course_pic{
+    width: 56px;
+    height: 56px;
+    /* background-color: #f2f2f2; */
+    border: 1px solid #f2f2f2;
+    margin-right: 20px;
+    border-radius: 2px;
+    flex-shrink: 0;
+}
+
+.course_pic img{
+    width: 55px;
+    height: 55px;
+}
+
+.course_card_text{
+    width: 220px;
+    display: flex;
+    flex-direction: column;
+    /* flex-grow: 2; */
+}
+
+.course_card_title{
+    font-size: 14px;
+    color: #666;
+}
+
+.course_card_desp{
+    margin-top: 5px;
+    font-size: 12px;
+    color: #999;
+}
+
+.course-card-container{
+    height: 234px;
+    display: flex;
+    flex-direction: column;
+}
+
+.course_card_foot{
+    border-top: 1px solid #ebebeb;
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 10px 16px 10px 16px;
+    /* background-color: green; */
+}
+
+.course_card_point{
+    font-size: 50px;
+    transform: translateY(-3px);
+}
+
+.course_card_status{
+    margin-right: 10px;
+}
+
+.course_card_date{
+    color: #ccc;
+}
+
+.course_card_icon{
+    flex-grow: 1;
+}
+
+.course-header-container{
+    display: flex;
+    flex-direction: row;
+    /* background-color: green; */
+    justify-content: flex-end;
+    align-items: center;
+}

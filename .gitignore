@@ -1,0 +1,17 @@
+app/node_modules
+backend/config.json
+
+backend/main
+.vscode
+.idea
+backend/backend.exe
+backend/main.exe
+backend/backend
+
+backend/static
+backend/templates
+backend/file/
+
+*.pyc
+fabfile.py
+*.mp4

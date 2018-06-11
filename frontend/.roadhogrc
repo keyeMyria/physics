@@ -1,0 +1,35 @@
+{
+  "entry": "src/index.js",
+   "disableCSSModules": true,
+  "env": {
+    "development": {
+      "extraBabelPlugins": [
+        "dva-hmr",
+        "transform-runtime",
+        ["import", { "libraryName": "antd", "libarayDirectory": "lib", "style": "css" }]
+      ]
+    },
+    "production": {
+      "extraBabelPlugins": [
+        "transform-runtime",
+         ["import", { "libraryName": "antd", "libarayDirectory": "lib", "style": "css" }]
+      ]
+    }
+  },
+  "proxy" : {
+          "/api": {
+              "target": "http://139.224.233.55:4040/api",
+              "changeOrigin": true,
+              "pathRewrite": {
+                  "^/api": ""
+              }
+          },
+          "/file": {
+              "target": "http://139.224.233.55:4040/file",
+              "changeOrigin": true,
+              "pathRewrite": {
+                  "^/file": ""
+              }
+          }
+      }
+}

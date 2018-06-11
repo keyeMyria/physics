@@ -1,0 +1,42 @@
+.login-card-background {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  height:100%;
+  background: #F2F2F2;
+}
+.login-card {
+  margin-top: 32px;
+  width:400px;
+}
+.login-card .ant-card-body {
+  padding:32px 24px 32px 24px
+}
+.login-card .login-card-title {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  font-family: 'PingFangSC-Semibold', 'PingFang SC Semibold', 'PingFang SC';
+  font-weight: 600;
+  font-style: normal;
+  font-size: 18px;
+  color: #666666;
+}
+.login-card .login-card-form {
+  margin:32px 0 24px 0;
+}
+
+.login-card .ant-form-item {
+  margin-bottom: 16px;
+}
+.login-card .login-form-footer {
+  display:flex;
+  justify-content: center;
+}
+.login-form-button {
+  width:80px;
+}
+.login-card-form .ant-form-item-label label{
+  color:#666666;
+}

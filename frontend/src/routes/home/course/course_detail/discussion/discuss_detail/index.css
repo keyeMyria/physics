@@ -1,0 +1,45 @@
+.discuss-container,
+.comment-container{
+    display: flex;
+    flex-direction: row;
+    /* align-items: center; */
+    width: 100%;
+    /* background-color: red; */
+}
+
+.discuss-container{
+    /* margin-top: 10px; */
+}
+
+.comment-container{
+    margin-bottom: 10px;
+}
+
+.discuss-img{
+    width: 40px;
+    height: 40px;
+    border-radius: 20px;
+    margin-right: 30px;
+}
+
+.discuss-content{
+    /* background-color: green; */
+    flex-grow: 1;
+}
+
+.comment-content{
+    /* background-color: green; */
+    flex-grow: 1;
+    /* height: 100% */
+}
+
+.comment-content-head{
+    /* background-color: red; */
+    margin-bottom: 10px;
+
+}
+
+.comment-content-head span{
+    color: #999;
+    margin-right: 20px;
+}

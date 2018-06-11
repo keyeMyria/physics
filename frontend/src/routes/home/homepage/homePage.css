@@ -1,0 +1,31 @@
+.content-head-title {
+  margin-bottom:24px;
+  margin-top:8px;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 18px;
+  color: #666666;
+}
+.head-left-icon{
+  height:56px;
+  width:56px;
+  border-radius:28px;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  margin-right: 24px;
+}
+.right-center{
+  font-family: 'HelveticaNeue-Medium', 'Helvetica Neue Medium', 'Helvetica Neue';
+  font-weight: 500;
+  font-style: normal;
+  font-size: 28px;
+  color: #666666;
+}
+.right-head{
+  font-family: 'PingFangHK-Regular', 'PingFang HK';
+  font-weight: 400;
+  font-style: normal;
+  font-size: 12px;
+  color: #989898;
+}

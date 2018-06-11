@@ -1,0 +1,154 @@
+.title_head {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.topic_title {
+  font-family: 'PingFangHK-Regular', 'PingFang HK';
+  font-size: 16px;
+  margin-bottom: 12px;
+  height: 20px;
+}
+
+.topic_update_time {
+  font-family: 'HelveticaNeue-Medium', 'Helvetica Neue Medium', 'Helvetica Neue';
+  width: 100%;
+  font-size: 10px;
+  color: #999;
+  height: 20px;
+}
+
+.topic_desc {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-top: 12px;
+}
+
+.topic_pic_desc {
+  width: 150px;
+  height: 100px;
+  background-color: #f2f2f2;
+  margin-right: 20px;
+  border-radius: 5px;
+  /* flex-grow: 1; */
+}
+
+.topic_text_desc {
+  display: flex;
+  flex-direction: column;
+  height: 90px;
+}
+
+.topic_list_item {
+  display: flex;
+  flex-direction: row;
+  padding: 1px;
+}
+
+.topic_list_title {
+
+  width: 65px;
+  font-size: 12px;
+  color: #999999;
+}
+
+.topic_list_content {
+  font-size: 12px;
+  color: #999999;
+}
+
+.topic_card_foot {
+  border-top: 1px solid #ebebeb;
+  height: 40px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  padding: 10px 16px 10px 16px;
+}
+
+.topic_foot_border {
+  border-right: 1px solid #999;
+  width: 50%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+
+}
+
+.topic_foot_noborder {
+  width: 50%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.topic_foot_noborder a,
+.topic_foot_border a {
+  color: #999;
+}
+
+.topic_foot_noborder :hover,
+.topic_foot_border :hover {
+  color: #108ee9;
+}
+
+.topic_foot_icon {
+  font-Size: 14px;
+  margin-top: 3px;
+}
+
+.topic_foot_text {
+  margin-left: 8px;
+}
+
+.topic_first_plus {
+  font-size: 80px;
+  display: flex;
+  height: 100%;
+  justify-content: center;
+  align-items: center;
+  color: #ddd;
+}
+
+.topic_head_rank_items {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+  height: 24px;
+}
+
+.topic_head_rank_text {
+  font-family: 'HelveticaNeue-Medium', 'Helvetica Neue Medium', 'Helvetica Neue';
+  font-size: 12px;
+  color: #108ee9
+}
+
+.topic_head_rank_icons {
+  margin-bottom: 6px;
+  margin-left: 4px;
+  margin-right: 14px;
+  height: 24px;
+}
+
+.topic_head_upicon {
+  display: flex;
+  padding: 0px;
+  border: 0px;
+  width: 10px;
+  height: 0px;
+  font-size: 9px;
+  margin-bottom: 7px;
+}
+
+.topic_head_downicon {
+  display: flex;
+  padding: 0px;
+  border: 0px;
+  width: 10px;
+  height: 0px;
+  font-size: 9px;
+  margin-left: 1px;
+}

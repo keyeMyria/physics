@@ -1,0 +1,6 @@
+{
+    "jwt":"My Secret",
+    "addr":":4040",
+    "postgres":"host=localhost port=5432 user=postgres password=123456 dbname=physics sslmode=disable",
+    "public":"irueqoiurioeurioquerueowiqruoiew"
+}
